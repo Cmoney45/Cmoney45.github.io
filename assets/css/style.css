@@ -1,0 +1,182 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(../images/background1.png);
+    margin: 0;
+    height: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+    color: #888;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+    flex:1 0 auto;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+    overflow: auto;
+    flex: 1 auto;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+    border-bottom: solid #cccccc 2px;
+    background-color: #ffffff;
+    overflow: auto;
+    position: relative;
+}
+
+h1 {
+    float: left;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: block;
+    margin: 40px 0 0 0;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    color: #888;
+    border-right: #888 solid 1px;
+    font-size: 1.2em;
+    float:right;
+    overflow: hidden;
+}
+
+li a:hover:not(#currentpage) {
+    background-color: #cccccc
+}
+
+#currentpage {
+    background-color: #888;
+    color: #ffffff;
+}
+
+#lastBorder {
+    border-right: #ffffff solid 1px;
+}
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccccc;
+    background-color: #ffffff;
+    clear: both;
+    padding: 25px;
+    margin: 0;
+    Font-size: 1.75em;
+}
+
+#main-body {
+    background-color: white;
+    border: solid .05px lightgray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    flex: 1;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 2;
+}
+
+#bio-img{
+    float:left;
+    width: 244px;
+    height: 280px;
+    padding: 20px;
+}
+
+#body {
+    Padding: 25px;
+}
+
+footer {
+    padding-top: 30px;
+    border-top: 10px #4aaaa5 solid;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-size: 8px;
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+/* Contact Form Styles */
+
+form {
+    padding: 20p;
+}
+
+input[type=text], input[type=email] {
+    width: 846px;
+    height: 22px;
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 0;
+    border: none;
+}
+
+textarea {
+    height: 250px;
+    width: 846px;
+    resize: none;
+    margin-top: 10px;
+}
+
+/* Portfolio Page Styles */
+
+.project {
+    position: relative;
+    height: 210px;
+    width:  270px;
+    display: inline-block;
+    margin: 30px 20px;
+    border: solid black 1px;
+    position: relative;
+}
+
+.protitle {
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.propic {
+    height: 210px;
+    width: 100%;
+}
