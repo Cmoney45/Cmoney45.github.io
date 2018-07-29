@@ -12,7 +12,7 @@ input[type=text], input[type=email] {
 }
 
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #a00000;
     color:#ffffff;
     padding: 10px 25px;
     text-align: center;
