@@ -1,0 +1,29 @@
+/* Contact Form Styles */
+
+form {
+    padding: 20px;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    height: 22px;
+    margin-top: 10px;
+    border: .025px solid #dddddd;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 10px 25px;
+    text-align: center;
+    margin: 0;
+    border: none;
+}
+
+textarea {
+    height: 250px;
+    width: 100%;
+    resize: none;
+    margin-top: 10px;
+    border: .025px solid #dddddd;
+}

@@ -1,0 +1,30 @@
+/* Portfolio Page Styles */
+
+.project {
+    position: relative;
+    height: 210px;
+    width:  270px;
+    display: inline-block;
+    margin: 30px 20px;
+    border: solid black 1px;
+    position: relative;
+}
+
+.protitle {
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    width: 100%;
+    padding: 15px 0px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.propic {
+    height: 210px;
+    width: 100%;
+}
+
+.project:hover {
+    border: #e41a1a 1px dashed;
+}
