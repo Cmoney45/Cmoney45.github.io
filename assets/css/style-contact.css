@@ -27,3 +27,7 @@ textarea {
     margin-top: 10px;
     border: .025px solid #dddddd;
 }
+
+.hidden-part {
+    display: none;
+}

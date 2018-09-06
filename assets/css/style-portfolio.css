@@ -18,6 +18,7 @@
     padding: 15px 0px;
     background-color: #a00000 ;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .propic {
@@ -26,5 +27,6 @@
 }
 
 .project:hover {
+    transition: outline 0.6s linear;
     border: #e41a1a 1px dashed;
 }
