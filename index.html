@@ -1,155 +1,207 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <!--Css Reset -->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <!-- Tab Image -->
-    <link rel="icon" type="image/jpg" href="assets/images/cmoney.jpg">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <!-- Base Styles -->
-    <link rel="stylesheet" href="assets\css\style.css">
-    <!-- Contact Form Styles -->
-    <link rel="stylesheet" href="assets/css/style-contact.css">
-    <!-- Contact Form Styles -->
-    <link rel="stylesheet" href="assets/css/style-portfolio.css">
+<!DOCTYPE HTML>
+<!--
+	Overflow by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 
+<head>
+	<title>Overflow by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
-<body>
-    <!--The Header/Navigation bar -->
-        <header>
-            <div class="wrapper">
-                <h1>Colton Scherer</h1>
-                <nav>
-                    <div class="btn-group">
-                        <button class="button" id="contactButton">Contact</button>
-                        <button class="button" id="portfolioButton">Portfolio</button>
-                        <button class="button currentPage" id="aboutButton">About</button>
-                    </div>
-                </nav>
-            </div>
-        </header>
-    <!-- Start of main Bio Section -->
-        <div class="wrapper push">
-            <div id="main-body">
-                <h2 id="aboutHeader">About Me</h2>
-                <h2 class="hidden-part" id="portfolioHeader">Portfolio</h2>
-                <h2 class="hidden-part" id="contactHeader">Contact Me</h2>
-                <div id="aboutBody">
-    <!-- My bio Pic -->
-                    <img id="bio-img" src="assets/images/20180702_171051.jpg" alt="Me">
-    <!-- My Bio Text -->
-                    <p>My name is <b>Colton Arlin Scherer</b> and I am an aspiring 
-                        computer programmer. I took an intro to computer 
-                        science course in college, where I worked with C++.
-                        From then on I wanted to learn more about programming.
-                        From working at a software company as an accountant, I 
-                        saw web development as an important coding base to know
-                        in an evolving SAAS and app based business environment.
-                    </p>
-                    <br>
-                    <p> I graduated in December 2014 from Hamline University with a Bachelors 
-                        Degree in Business Administration, majoring in Accounting. After college, 
-                        I worked for a software company from February 2015 to November 2017 as an accountant.
-                        I used my knowledge of coding practices to create unique excel spreadsheets
-                        that would help automate and speed up the processes that I was tasked with. 
-                        I was often an excel-guru for various teams to help them do the same within 
-                        their own departments. I eventually delved into excels VBA developer module 
-                        and I started to ask myself if I should be tyring to learn a real coding languages 
-                        vs using a spreadsheet tool. Working for the company heightened my interest 
-                        in software development even more, as the people I met were very interesting 
-                        and I related with immensely. After finding accounting work outside of a software 
-                        environment, I knew I really wanted to get back to that type of work-life as it was 
-                        more challenging and interesting to me as well. 
-                    </p>
-                </div>
-    <!-- My Portfolio body -->
-                <div class="hidden-part" id="portfolioBody">
-                    <!-- Project 1-->
-                    <a class="project" href="https://cmoney45.github.io/Word-Guess-Game/">
-                        <div>
-                            <img class="propic" src="assets/images/dcDefault.jpg" alt="word-Guess-Game">
-                        </div> 
-                        <div class="protitle">
-                            Superhero - Word Guess Game
-                        </div>
-                        </a>
-                    <!-- Project 2-->
-                    <a class="project" href="https://cmoney45.github.io/unit-4-game/">
-                        <div>
-                            <img class="propic" src="assets/images/starwars.png" alt="star-wars-rpg">
-                         </div> 
-                         <div class="protitle">
-                             Star Wars RPG
-                         </div>
-                    </a>
-                    <!-- Project 3-->
-                    <a class="project" href="https://cmoney45.github.io/TriviaGame/">
-                        <div>
-                           <img class="propic" src="assets/images/trivia.jpg" alt="trivia-game">
-                        </div> 
-                       <div class="protitle">
-                            Trivia Game
-                        </div>
-                    </a>
-                    <!-- Project 4-->
-                    <a class="project" href="https://cmoney45.github.io/GifTastic/">
-                        <div>
-                            <img class="propic" src="assets/images/giphytastic.gif" alt="giftastic">
-                        </div> 
-                        <div class="protitle">
-                            Giphytastic!
-                        </div>
-                    </a>
-                    <!-- Project 5 -->
-                    <a class="project" href="https://cmoney45.github.io/Train-Scheduler/">
-                        <div>
-                            <img class="propic" src="assets/images/trainScheduler.jpg" alt="trainScheduler">
-                        </div> 
-                        <div class="protitle">
-                            Train Scheduler
-                        </div>
-                    </a>
-                    <!-- Project 6? -->
-                    <a class="project" href="https://nicksedillos.github.io/project-1/">
-                        <div>
-                            <img class="propic" src="assets/images/homeStorage.jpg" alt="Home Manager">
-                        </div> 
-                        <div class="protitle">
-                                Home Manager
-                        </div>
-                    </a>
-                </div>
-   <!-- My Contact body -->
-                <div class="hidden-part" id="contactBody">
-                    <form id="body" method="post">
-                        Name<br>
-                        <input type=text name="name">
-                        <br><br>
-                        E-mail<br>
-                        <input type="email" name="email">
-                        <br><br>
-                        Message<br>
-                        <textarea name="message"></textarea>
-                        <br><br>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        </div>
+<body class="is-preload">
 
-    <footer>
-        <a href="https://www.linkedin.com/in/colton-scherer-11161b83/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://github.com/Cmoney45" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <p> Work of University of MN Bootcamp </p>
-    </footer>
- <!-- jQuery -->
- <script src="https://code.jquery.com/jquery.js"></script>
- <!-- My Scripts -->
- <script src="assets/javascript/script.js"></script>
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<h1>Colton Scherer</h1>
+			<p>Design by HTML5 UP</p>
+		</header>
+		<footer>
+			<a href="#first" class="button style2 scrolly">About Me</a>
+			<a href="#second" class="button style2 scrolly">Portfolio</a>
+			<a href="#third" class="button style2 scrolly">Contact</a>
+		</footer>
+	</section>
+
+	<!-- Feature 1 -->
+	<article id="first" class="container box style1 right">
+		<a href="#" class="image fit">
+			<img src="images/fulls/20180702_171051.jpg" alt="" />
+		</a>
+		<div class="inner">
+			<header>
+				<h2>About Me</h2>
+			</header>
+			<p>
+				My name is <b>Colton Arlin Scherer</b> and I am an aspiring
+				computer programmer. I took an intro to computer
+				science course in college, where I worked with C++.
+				From then on I wanted to learn more about programming.
+				From working at a software company as an accountant, I
+				saw web development as an important coding base to know
+				in an evolving SAAS and app based business environment.
+			</p>
+		</div>
+	</article>
+
+	<!-- Feature 2 -->
+	<article class="container box style1 left">
+		<!-- <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a> -->
+		<div class="inner">
+			<header>
+				<h2>Brief History</h2>
+			</header>
+			<hr>
+			<p>
+				I graduated in December 2014 from Hamline University with a Bachelors
+				Degree in Business Administration, majoring in Accounting. After college,
+				I worked for a software company from February 2015 to November 2017 as an accountant.
+				I used my knowledge of coding practices to create unique excel spreadsheets
+				that would help automate and speed up the processes that I was tasked with.
+				I was often an excel-guru for various teams to help them do the same within
+				their own departments. I eventually delved into excels VBA developer module
+				and I started to ask myself if I should be tyring to learn a real coding languages
+				vs using a spreadsheet tool. Working for the company heightened my interest
+				in software development even more, as the people I met were very interesting
+				and I related with immensely. After finding accounting work outside of a software
+				environment, I knew I really wanted to get back to that type of work-life as it was
+				more challenging and interesting to me as well.
+			</p>
+		</div>
+	</article>
+
+	<!-- Portfolio -->
+	<article id="second" class="container box style2">
+		<header>
+			<h2>My Portfolio</h2>
+			<p>
+				Here are a few projects I have worked on.
+			</p>
+			<p>
+				Click on the links below to go to the webpages for that project.
+			</p>
+			<p>
+				I always strive to improve and learn with each new project!
+			</p>
+		</header>
+		<div class="inner gallery">
+			<div class="row gtr-0">
+				<div class="col-3 col-12-mobile">
+					<a href="images/fulls/dcDefault.jpg" class="image fit">
+						<img class="thumb" src="images/fulls/dcDefault.jpg" alt="" title="Superhero - Word Guess Game" />
+						Word Guess Game
+					</a>
+				</div>
+
+				<div class="col-3 col-12-mobile">
+					<a href="images/fulls/02.jpg" class="image fit">
+						<img class="thumb" src="images/fulls/starwars.png" alt="" title="Star Wars RPG" />
+						Star Wars RPG
+					</a>
+				</div>
+
+				<div class="col-3 col-12-mobile">
+					<a href="https://cmoney45.github.io/TriviaGame/" class="image fit"><img class="thumb" src="images/fulls/trivia.jpg"
+						 alt="" title="Trivia Game" />
+						Trivia Game
+					</a>
+				</div>
+
+				<div class="col-3 col-12-mobile">
+					<a href="https://cmoney45.github.io/GifTastic/" class="image fit"><img class="thumb" src="images/fulls/giphytastic.gif"
+						 alt="" title="Giftastic" />
+						Giftastic
+					</a>
+				</div>
+			</div>
+			<div class="row gtr-0">
+				<div class="col-3 col-12-mobile">
+					<a href="https://cmoney45.github.io/Train-Scheduler/" class="image fit">
+						<img class="thumb" src="images/fulls/trainScheduler.jpg" alt="" title="Train Scheduler" />
+						Train Scheduler
+					</a>
+				</div>
+				<div class="col-3 col-12-mobile">
+					<a href="https://nicksedillos.github.io/project-1/" class="image fit">
+						<img class="thumb" src="images/fulls/homeStorage.jpg" alt="" title="Home Manager." />
+						Home Manager
+					</a>
+				</div>
+				<div class="col-3 col-12-mobile"><a href="https://secret-crag-95048.herokuapp.com/" class="image fit">
+						<img class="thumb" src="images/fulls/friendFinder.jpg" alt="" title="Friend Finder" />
+						Friend Finder
+					</a>
+				</div>
+				<!-- <div class="col-3 col-12-mobile"><a href="images/fulls/08.jpg" class="image fit"><img class="thumb" src="images/thumbs/08.jpg"
+						 alt="" title="People come and go and walk away" /></a></div> -->
+			</div>
+		</div>
+	</article>
+
+	<!-- Contact -->
+	<article id="third" class="container box style3">
+		<header>
+			<h2>Contact Me!</h2>
+			<p>Fill out the form below to get in contact!</p>
+		</header>
+		<form action="https://formspree.io/cmoney11550@gmail.com">
+			<div class="row gtr-50">
+				<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
+				<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+				<div class="col-12">
+					<textarea name="message" placeholder="Message"></textarea>
+				</div>
+				<div class="col-12">
+					<ul class="actions">
+						<li><input type="submit" value="Send Message" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</article>
+	<!-- Banner -->
+	<section id="banner">
+		<header>
+			<h2>Design by Overflow</h2>
+		</header>
+		<p>
+			A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5
+				UP</a>.<br />
+			It’s responsive, built on HTML5/CSS3, and entirely free<br />
+			under the <a href="http://html5up.net/license">Creative Commons license</a>.
+		</p>
+	</section>
+
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://github.com/Cmoney45" class="icon fa-github"><span class="label">Github</span></a></li>
+			<li><a href="https://www.linkedin.com/in/colton-scherer-11161b83/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+			<li><a href="https://plus.google.com/114308627372172400427" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+		</ul>
+		<div class="copyright">
+			<ul class="menu">
+				<li>&copy; All rights reserved.</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
