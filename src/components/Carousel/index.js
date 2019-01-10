@@ -62,22 +62,33 @@ class CarouselSlide extends Component {
         <p className="carousel-slide__content">{this.props.slide.description}</p>
 
         <p>
-          <a
-            className="carousel__button"
-            href={this.props.slide.deployedsite}
-            rel="noopener"
-            target="_blank"
-          >
-            Deployed Site
-          </a>
+          {
+            this.props.slide.deployedsite ? (
+              <a
+                className="carousel__button"
+                href={this.props.slide.deployedsite}
+                rel="noopener"
+                target="_blank"
+              >
+                Deployed Site
+              </a>
+            ) : (null)
+          }
           {"     "}
-          <a
-            className="carousel__button"
-            href={this.props.slide.codesite}
-            rel="noopener"
-            target="_blank"
-          >Github
-            </a>
+          {
+            this.props.slide.codesite ? (
+              <a
+                className="carousel__button"
+                href={this.props.slide.codesite}
+                rel="noopener"
+                target="_blank"
+              >
+                Github
+              </a>
+
+            ) : (null)
+          }
+
         </p>
       </li>
     );

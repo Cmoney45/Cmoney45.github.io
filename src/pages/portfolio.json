@@ -9,16 +9,16 @@
     {
         "title": "MERN - User Framework",
         "codesite": "https://github.com/Cmoney45/MERN-user-framework",
-        "deployedsite": "N/A",
-        "image": "images/vist.webp",
-        "description": "After working on the backend for VIST, I decided to compartmentalize that framework since it was a pain to find all the resources on how to set it all up. This way I can start with this for any future projects I want to create a user and MERN framework. "
+        "deployedsite": "",
+        "image": "images/MERN.jpg",
+        "description": "After working on the backend for VIST, I decided to compartmentalize that framework since it was a pain to find all the resources on how to set it all up. This way I can start with this for any future projects I want to create with a user and MERN framework. "
     },
     {
         "title": "Google Book Finder - React",
         "codesite": "https://github.com/Cmoney45/google_books_react_app",
         "deployedsite": "https://glacial-brook-57502.herokuapp.com/",
         "image": "images/bookFinder.png",
-        "description": "React App that uses google book api to display books"
+        "description": "React App that uses google book api to display books, store them to a page and allows you to make comments as well. I plan on remaking with the VIST overlay and user framework as they are similar apps."
     },
     {
         "title": "Memory Game",
@@ -100,7 +100,7 @@
     {
         "title": "BAMazon",
         "codesite": "https://github.com/Cmoney45/Bamazon",
-        "deployedsite": "N/A",
+        "deployedsite": "",
         "image": "images/Bamazon.jpg",
         "description": "This application is a simple command line storefront using the npm inquirer package and the MySQL database together with the npm mysql package. It also uses the npm table package to make our display look more uniform for the command line."
     }

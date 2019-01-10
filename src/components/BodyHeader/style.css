@@ -14,9 +14,10 @@
 
 #bio-img{
     float:left;
-    width: 244px;
-    height: 280px;
-    padding: 20px;
+    width: 376px;
+    height: 290px;
+    padding: 40px 0px;
+    transform: rotate(90deg);
 }
 
 p {
