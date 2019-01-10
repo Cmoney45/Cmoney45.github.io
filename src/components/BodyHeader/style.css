@@ -1,0 +1,26 @@
+/* BodyHeader Styles */
+
+#main-body {
+    background-color: #ffffff;
+    border: solid .15px #dddddd;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#aboutBody {
+    Padding: 25px;
+}
+
+#bio-img{
+    float:left;
+    width: 244px;
+    height: 280px;
+    padding: 20px;
+}
+
+p {
+    text-indent: 20px;
+    line-height: 2;
+    margin-top: 10px;
+}
