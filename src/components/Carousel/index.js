@@ -64,9 +64,9 @@ class CarouselSlide extends Component {
         <p>
           <a
             className="carousel__button"
-
             href={this.props.slide.deployedsite}
             rel="noopener"
+            target="_blank"
           >
             Deployed Site
           </a>
@@ -75,7 +75,8 @@ class CarouselSlide extends Component {
             className="carousel__button"
             href={this.props.slide.codesite}
             rel="noopener"
-          >Code
+            target="_blank"
+          >Github
             </a>
         </p>
       </li>

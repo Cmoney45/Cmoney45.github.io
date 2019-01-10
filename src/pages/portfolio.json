@@ -7,6 +7,13 @@
         "description": "Consumers watch television more than ever before and keeping track of shows is difficult across many different streaming sites and networks. This application puts all of the relevant TV guide information in one neat interface. VIST allows TV viewers to create a catalog of shows that they want to watch or are currently watching."
     },
     {
+        "title": "MERN - User Framework",
+        "codesite": "https://github.com/Cmoney45/MERN-user-framework",
+        "deployedsite": "N/A",
+        "image": "images/vist.webp",
+        "description": "After working on the backend for VIST, I decided to compartmentalize that framework since it was a pain to find all the resources on how to set it all up. This way I can start with this for any future projects I want to create a user and MERN framework. "
+    },
+    {
         "title": "Google Book Finder - React",
         "codesite": "https://github.com/Cmoney45/google_books_react_app",
         "deployedsite": "https://glacial-brook-57502.herokuapp.com/",

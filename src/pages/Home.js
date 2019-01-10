@@ -10,7 +10,7 @@ class Home extends Component {
             <div>
                 <BodyHeader headerTitle="About Me"/>
                 <div>
-                    <img id="bio-img" src="images/20180702_171051.jpg" alt="Me"></img>
+                    <img id="bio-img" src="images/20181210_152918.jpg" alt="Me"></img>
                     <p>My name is <b>Colton Arlin Scherer</b> and I am an aspiring
                         computer programmer. I took an intro to computer
                         science course in college, where I worked with C++.
