@@ -21,6 +21,13 @@
         "description": "React App that uses google book api to display books, store them to a page and allows you to make comments as well. I plan on remaking with the VIST overlay and user framework as they are similar apps."
     },
     {
+        "title": "Barrens Chat Generator",
+        "codesite": "https://github.com/Cmoney45/BarrensChatGenerator",
+        "deployedsite": "https://cmoney45.github.io/BarrensChatGenerator/",
+        "image": "images/Barrens_CGI.jpg",
+        "description": "This app was designed to do one simple thing, generate Chuck Norris jokes quick and easy. With the upcoming release of Classic World of Warcraft in 2019, people will once again be thrown back into the World... of Warcraft and the specific zone of 'The Barrens'. Back in it's hayday this zone was known for having a deplorable chat day and night. But one aspect was there were always an abundance of Chuck Norris jokes from 2004-2006. Since those have fallen out of favor, I thought I'd create a generator to help out."
+    },
+    {
         "title": "Memory Game",
         "codesite": "https://github.com/Cmoney45/Memory_game",
         "deployedsite": "https://cmoney45.github.io/Memory_game/",
