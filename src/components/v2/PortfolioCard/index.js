@@ -31,11 +31,15 @@ class PortfolioCard extends Component {
                             <li><a
                                 href={slides.deployedsite}
                                 className="button alt"
+                                target="_blank"
+                                rel="noopener"
                             >Deployed</a>
                             </li>
                             <li><a
                                 href={slides.codesite}
                                 className="button alt"
+                                target="_blank"
+                                rel="noopener"
                             >Code</a>
                             </li>
                         </ul>

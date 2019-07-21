@@ -49,13 +49,6 @@
         "description": "Home Manager is a tool for keeping track of what items you have, and how many of each."
     },
     {
-        "title": "Train Scheduler",
-        "codesite": "https://github.com/Cmoney45/Train-Scheduler",
-        "deployedsite": "https://cmoney45.github.io/Train-Scheduler/",
-        "image": "images/trainScheduler.jpg",
-        "description": "This app was built as a base to use Firebase and pull train times added by the user."
-    },
-    {
         "title": "Trivia Game",
         "codesite": "https://github.com/Cmoney45/TriviaGame",
         "deployedsite": "https://cmoney45.github.io/TriviaGame/",
