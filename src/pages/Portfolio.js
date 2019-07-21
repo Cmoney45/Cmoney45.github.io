@@ -1,22 +1,34 @@
 // client.src.pages.Portfolio.js
 
 import React, { Component } from "react";
-import BodyHeader from "../components/BodyHeader";
-import Carousel from "../components/Carousel";
+import BodyHeader from "../components/v2/BodyHeader";
+import Article from "../components/v2/Article";
 import portfolioData from "./portfolio.json";
+import PortfolioCard from "../components/v2/PortfolioCard";
 
-class Home extends Component {
+class Portfolio extends Component {
 
     render() {
         return (
-            <div>
-                <BodyHeader headerTitle="Portfolio" />
-                <Carousel
-                    slides={portfolioData}
-                />
-            </div>
+            <Article
+                class="wrapper style3"
+                id="portfolio">
+                <div className="container">
+                    <BodyHeader
+                    headerTitle="Portfolio"></BodyHeader>
+                    <div className="row">
+                        {portfolioData.map((slide, index) =>
+
+                            <PortfolioCard
+                                index={index}
+                                slides={slide}
+                            ></PortfolioCard>
+                        )}
+                    </div>
+                </div>
+            </Article>
         );
     }
 }
 
-export default Home;
+export default Portfolio;

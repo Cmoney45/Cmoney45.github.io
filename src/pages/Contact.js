@@ -1,19 +1,28 @@
-// client.src.pages.Home.js
+// client.src.pages.Contact.js
 
 import React, { Component } from "react";
-import BodyHeader from "../components/BodyHeader";
-import ContactForm from "../components/ContactForm";
+import BodyHeader from "../components/v2/BodyHeader";
+import ContactForm from "../components/v2/ContactForm";
+import Wrapper from "../components/v2/Wrapper";
 
-class Home extends Component {
+class Contact extends Component {
 
   render() {
     return (
-      <div>
-        <BodyHeader headerTitle="Contact Me" />
-        <ContactForm />
-      </div>
+      <Wrapper
+        pageName="contact"
+        styleNumber="4"
+      >
+        <div className="container medium">
+          <div>
+            <BodyHeader headerTitle="Contact Me" />
+            <ContactForm />
+          </div>
+        </div>
+      </Wrapper>
+
     );
   }
 }
 
-export default Home;
+export default Contact;
