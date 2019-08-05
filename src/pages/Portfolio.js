@@ -20,6 +20,7 @@ class Portfolio extends Component {
                         {portfolioData.map((slide, index) =>
 
                             <PortfolioCard
+                                key={index}
                                 index={index}
                                 slides={slide}
                             ></PortfolioCard>

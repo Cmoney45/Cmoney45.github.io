@@ -7,9 +7,16 @@
         "description": "This application puts all of the relevant TV guide information in one neat interface. VIST allows TV viewers to create a catalog of shows that they want to watch or are currently watching."
     },
     {
+        "title": "D&D Class Quiz",
+        "codesite": "https://github.com/Cmoney45/classQuiz",
+        "deployedsite": "https://dnd-quiz-45.herokuapp.com/",
+        "image": "images/dndmobile-br.jpg",
+        "description": "D&D Class Quiz based on easydamus.com quiz. (WIP)"
+    },
+    {
         "title": "MERN - User Framework",
         "codesite": "https://github.com/Cmoney45/MERN-user-framework",
-        "deployedsite": "",
+        "deployedsite": null,
         "image": "images/MERN.jpg",
         "description": "After working on the backend for VIST, I decided to compartmentalize that framework since it was a pain to find all the resources on how to set it all up. This way I can start with this for any future projects I want to create with a user and MERN framework. "
     },
@@ -72,7 +79,7 @@
     {
         "title": "BAMazon",
         "codesite": "https://github.com/Cmoney45/Bamazon",
-        "deployedsite": "",
+        "deployedsite": null,
         "image": "images/Bamazon.jpg",
         "description": "This application is a node.js storefront using the npm inquirer package and the MySQL database together with the npm mysql package. It also uses the npm table package to make our display look more uniform for the command line."
     }

@@ -11,7 +11,7 @@ class PortfolioCard extends Component {
 
         return (
             <div className="col-4 col-6-medium col-12-small">
-                <section class="box">
+                <section className="box">
                     <img
                         src={slides.image}
                         alt={slides.title}
@@ -27,14 +27,19 @@ class PortfolioCard extends Component {
                         {slides.description}
                     </p>
                     <footer>
-                        <ul class="actions">
-                            <li><a
-                                href={slides.deployedsite}
-                                className="button alt"
-                                target="_blank"
-                                rel="noopener"
-                            >Deployed</a>
-                            </li>
+                        <ul className="actions">
+                            {slides.deployedsite
+                                ?
+                                (
+                                    <li><a
+                                        href={slides.deployedsite}
+                                        className="button alt"
+                                        target="_blank"
+                                        rel="noopener"
+                                    >Deployed</a>
+                                    </li>
+                                )
+                                : null}
                             <li><a
                                 href={slides.codesite}
                                 className="button alt"
